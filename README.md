@@ -17,6 +17,7 @@ pip install pytest-cov
 
 ## Executando pytest-cov
 ```bash
+[pytest]
 pytest --cov=src/ --cov-report=html --cov-report=term-missing
 ```
 
