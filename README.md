@@ -18,11 +18,13 @@ pip install pytest-cov
 ## Executando pytest-cov
 ```bash
 [pytest]
-pytest --cov=src/ --cov-report=html --cov-report=term-missing
+adoopts = --cov=src/ --cov-report=html --cov-report=term-missing
 ```
 
 ## Criar o arquivo pytest.ini
 Na raiz do projeto, criar o arquivo `pytest.ini` e adicionar os comandos acima.
+
+## voltar para a pasta Caso de Teste
 
 ## Executando o arquivo pytest.ini
 Execute o comando:
